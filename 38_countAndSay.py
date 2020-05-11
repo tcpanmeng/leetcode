@@ -1,6 +1,5 @@
 class Solution:
 
-
 # 思路
 # 题目意思挺费解的，但是评论区解释得挺清楚了
 # 循环含义
@@ -76,4 +75,5 @@ def countAndSay3(self, n: int) -> str:
             new_res.append(cur)
             res = new_res
         return ''.join(list(map(str, res)))
-
+s = Solution()
+print(s.countAndSay(4))
